@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:id="@+id/version_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:id="@+id/label1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/label1"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:paddingTop="15dp" />
+    
+    <ListView
+        android:id="@+id/visited_locations"
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:background="#FFFFFF"
+        android:divider="#FF0000"
+        android:dividerHeight="5dp"
+        android:footerDividersEnabled="true"/>
+    
+    <ImageView
+         android:id="@+id/imageView1"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:src="@drawable/fieldtrip" />
+    
+     <ImageButton
+        android:id="@+id/start_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startScan"
+        android:src="@drawable/startscan"
+        android:paddingTop="10dp"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Trip Report</string>
+    <string name="label1">List of Visited Locations:</string>
+    <string name="label2">Press "Start Scan" to detect:</string>
+    <string name="title_activity_display_current_location">Current Location Information</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_display_saved_location">Display Saved Location</string>
+    <string name="button">Home</string>
+
+</resources>
