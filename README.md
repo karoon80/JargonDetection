@@ -7,3 +7,13 @@ Play the app to detect a jargon and give what it represents
 3- From the home page, the user can start speech recognition API to convert speech to text.
 4. After the scan finishes, a new page appears to display the location on Google Map, the postal address, and the jargon translation by checking each word in the sentence with all jargons  available in the database. This page is titled by "Current Location Information".
 5. From this page, the user can go back to Home page by clicking on the home icon on the top right corner of the action bar. As a result, the user can see the current location added into the list.
+* The available jargons for this version are: 
+* String [] bio = {"chromatid","chromosome","genetic","gene","cytogenetic","embryo","epistatic"
+					,"anomaly","cell","germ","mutation","pathogenic","unigenic"};
+* String [] computer = {"android","antivirus","ios","app","auto complete","bandwidth",
+					"bit","cable","sensor","console","cpu","processor","database","bluetooth","bug","mobile","gage"};
+* String [] home = {"home","house","place","room","kitchen","bathroom"};
+* String [] gym = {"excercise","workout","treadmill","zumba","elliptical","cycling","turbo","workingout","exercising"};
+* String [] food = {"restaurant","lunch","breakfast","dinner","fries","egg","steak","chicken","bacon"
+					,"pizza","kabob","rice"};
+* String [] entertainment = {"fun","fountain","santa","theater","trolley"};
